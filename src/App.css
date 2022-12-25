@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+#container {
+    min-height: 100vh;
+    background: linear-gradient(90deg, #77b7bb, #366ad3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#todoForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem 1rem 1rem 1rem;
+    min-height: 60vh;
+    background: white;
+    width: 25rem;
+    margin: auto;
+    box-shadow: 1px 1px 5px black;
+}
+
+#todoFormDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem 1rem 1rem 1rem;
+    min-height: 60vh;
+    background: rgb(213, 144, 144);
+    color: black;
+    width: 25rem;
+    margin: auto;
+    box-shadow: 1px 1px 5px black;
+}
+
+#inputDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#inputDiv>input {
+    width: 16rem;
+    height: 2rem;
+    text-align: center;
+}
+
+#inputDiv>input:focus{
+    margin-left: 5px;
+}
+
+#inputDiv>button {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 0.3rem;
+    background: rgb(152, 63, 152);
+    border: none;
+    font-size: 1.5rem;
+}
+#inputDiv>button>i{
+    color: white;
+}
+
+#listDiv>ul {
+    list-style: none;
+
+}
+
+
+#listDiv>ul>div {
+    display: flex;
+    width: 18.5rem !important;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.2rem;
+    background: rgb(222, 216, 216);
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+/* #listDiv>ul>li {
+    display: flex;
+    width: 18.5rem !important;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.2rem;
+    background: rgb(222, 216, 216);
+    margin-top: 1rem;
+    padding: 0.2rem;
+} */
+
+#listDiv>ul>li>i {
+    cursor: pointer;
+}
+
+
+#deneme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    height: 2.2rem;
+    width: 18.5rem;
+}
+
+i {
+    cursor: pointer;
+}
+
+
+#deneme>button {
+    height: 2.2rem;
+    background: rgb(152, 63, 152);
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+}
+
+.formHeading{
+    text-align: center;
+    padding: 10px;
+}
